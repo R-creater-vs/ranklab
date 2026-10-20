@@ -1,0 +1,430 @@
+{
+  "generatedAt": "2026-10-20T08:14:41.166Z",
+  "environment": {
+    "nodeVersion": "v24.14.1",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "indexing": {
+    "documentCount": 120,
+    "durationMs": 4.113200000000006,
+    "vocabSize": 205,
+    "avgDocLength": 45.225
+  },
+  "retrieval": {
+    "queryCount": 30,
+    "meanQueryMs": 0.5439900000000004
+  },
+  "enumerationScaling": {
+    "0": {
+      "u": 0,
+      "combinations": 1,
+      "durationMs": 1.25,
+      "envelope": "[-0.0511, -0.0511]"
+    },
+    "4": {
+      "u": 4,
+      "combinations": 16,
+      "durationMs": 0.4,
+      "envelope": "[-0.0511, -0.0445]"
+    },
+    "8": {
+      "u": 8,
+      "combinations": 256,
+      "durationMs": 1.9,
+      "envelope": "[-0.3973, 0.1201]"
+    },
+    "12": {
+      "u": 12,
+      "combinations": 4096,
+      "durationMs": 7.39,
+      "envelope": "[-0.6509, 0.5568]"
+    }
+  },
+  "development": {
+    "split": "dev",
+    "queriesCount": 15,
+    "meanBaselineDiff": -0.1708,
+    "macroMinDiff": -0.4671,
+    "macroMaxDiff": 0.3528,
+    "unresolvedCount": 10,
+    "strictlyPositiveCount": 0,
+    "strictlyNegativeCount": 0,
+    "tiedCount": 5,
+    "results": [
+      {
+        "queryId": "q-01",
+        "text": "connect to campus eduroam wifi",
+        "intentFamily": "wifi-eduroam",
+        "missingCount": 7,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.4367,
+          0.3836
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-02",
+        "text": "install eduroam root certificate iphone",
+        "intentFamily": "wifi-eduroam",
+        "missingCount": 6,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-03",
+        "text": "globalprotect vpn connection timeout error",
+        "intentFamily": "vpn-globalprotect",
+        "missingCount": 7,
+        "baselineDiff": -0.6309,
+        "envelope": [
+          -0.7123,
+          0.4469
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-04",
+        "text": "download vpn client for macos",
+        "intentFamily": "vpn-globalprotect",
+        "missingCount": 9,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.5654,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-05",
+        "text": "setup university outlook email on phone",
+        "intentFamily": "email-exchange",
+        "missingCount": 7,
+        "baselineDiff": -0.5,
+        "envelope": [
+          -0.7328,
+          0.4913
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-06",
+        "text": "request exchange mailbox storage quota increase",
+        "intentFamily": "email-exchange",
+        "missingCount": 11,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-07",
+        "text": "reset expired student password self service",
+        "intentFamily": "password-sspr",
+        "missingCount": 6,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-08",
+        "text": "security questions forgot netid password",
+        "intentFamily": "password-sspr",
+        "missingCount": 7,
+        "baselineDiff": -0.4307,
+        "envelope": [
+          -0.906,
+          0.6399
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-09",
+        "text": "how to add money to papercut print balance",
+        "intentFamily": "print-papercut",
+        "missingCount": 6,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-10",
+        "text": "library wireless web print printer locations",
+        "intentFamily": "print-papercut",
+        "missingCount": 9,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6714,
+          0.5414
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-11",
+        "text": "ssh login to engineering linux lab cluster",
+        "intentFamily": "lab-linux",
+        "missingCount": 10,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-12",
+        "text": "slurm batch job submit gpu cuda cluster",
+        "intentFamily": "lab-linux",
+        "missingCount": 2,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-13",
+        "text": "setup duo mobile push notifications new phone",
+        "intentFamily": "mfa-duo",
+        "missingCount": 7,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-14",
+        "text": "bypass codes duo two factor travel",
+        "intentFamily": "mfa-duo",
+        "missingCount": 5,
+        "baselineDiff": -1,
+        "envelope": [
+          -1,
+          0.1461
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-15",
+        "text": "wifi slow disconnects in library troubleshooting",
+        "intentFamily": "wifi-eduroam",
+        "missingCount": 10,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      }
+    ]
+  },
+  "heldOut": {
+    "split": "held-out",
+    "queriesCount": 15,
+    "meanBaselineDiff": -0.2841,
+    "macroMinDiff": -0.5071,
+    "macroMaxDiff": 0.2954,
+    "unresolvedCount": 10,
+    "strictlyPositiveCount": 0,
+    "strictlyNegativeCount": 0,
+    "tiedCount": 5,
+    "results": [
+      {
+        "queryId": "q-16",
+        "text": "canvas lms login submit course assignment",
+        "intentFamily": "canvas-lms",
+        "missingCount": 5,
+        "baselineDiff": -1,
+        "envelope": [
+          -1,
+          0.1461
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-17",
+        "text": "canvas syllabus file upload instructor permissions",
+        "intentFamily": "canvas-lms",
+        "missingCount": 7,
+        "baselineDiff": -0.6309,
+        "envelope": [
+          -0.7328,
+          0.4469
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-18",
+        "text": "matlab campus license activation mathworks account",
+        "intentFamily": "software-matlab",
+        "missingCount": 11,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-19",
+        "text": "matlab network license server connection error",
+        "intentFamily": "software-matlab",
+        "missingCount": 7,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-20",
+        "text": "register ethernet mac address dorm wall port",
+        "intentFamily": "dorm-ethernet",
+        "missingCount": 7,
+        "baselineDiff": -0.6309,
+        "envelope": [
+          -0.7328,
+          0.4469
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-21",
+        "text": "gaming console nintendo switch wired internet dorm",
+        "intentFamily": "dorm-ethernet",
+        "missingCount": 2,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-22",
+        "text": "off campus research journal ezproxy login",
+        "intentFamily": "library-proxy",
+        "missingCount": 9,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-23",
+        "text": "google scholar link library subscription access",
+        "intentFamily": "library-proxy",
+        "missingCount": 5,
+        "baselineDiff": -1,
+        "envelope": [
+          -1,
+          0.1952
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-24",
+        "text": "sponsor guest visitor wifi conference account",
+        "intentFamily": "account-guest",
+        "missingCount": 5,
+        "baselineDiff": -1,
+        "envelope": [
+          -1,
+          0.1695
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-25",
+        "text": "contractor temporary campus netid request",
+        "intentFamily": "account-guest",
+        "missingCount": 9,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.4982,
+          0.3836
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-26",
+        "text": "sync onedrive student files sharepoint permissions",
+        "intentFamily": "storage-onedrive",
+        "missingCount": 7,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-27",
+        "text": "onedrive quota full backup local folder",
+        "intentFamily": "storage-onedrive",
+        "missingCount": 6,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-28",
+        "text": "zoom sso login with university credentials",
+        "intentFamily": "zoom-virtual",
+        "missingCount": 11,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      },
+      {
+        "queryId": "q-29",
+        "text": "request large zoom webinar 500 participants license",
+        "intentFamily": "zoom-virtual",
+        "missingCount": 2,
+        "baselineDiff": 0,
+        "envelope": [
+          0,
+          0
+        ],
+        "verdict": "tied_zero"
+      },
+      {
+        "queryId": "q-30",
+        "text": "campus id card access denied research lab door",
+        "intentFamily": "card-access",
+        "missingCount": 9,
+        "baselineDiff": 0,
+        "envelope": [
+          -0.6608,
+          0.6608
+        ],
+        "verdict": "unresolved"
+      }
+    ]
+  }
+}
